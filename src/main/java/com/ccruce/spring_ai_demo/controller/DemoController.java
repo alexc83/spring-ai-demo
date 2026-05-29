@@ -110,6 +110,11 @@ public class DemoController {
 		return embeddingModel.embed(text);
 	}
 	
+	@PostMapping("/api/products")
+	public String postMethodName(@RequestParam String query) {
+		
+		return query;
+	}
 	
 	
 
