@@ -1,18 +1,21 @@
 package com.ccruce.spring_ai_demo.controller;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Map;
 
 import org.springframework.ai.chat.client.ChatClient;
-import org.springframework.ai.chat.client.advisor.MessageChatMemoryAdvisor;
+import org.springframework.ai.chat.client.advisor.vectorstore.QuestionAnswerAdvisor;
 import org.springframework.ai.chat.memory.ChatMemory;
-import org.springframework.ai.chat.memory.InMemoryChatMemoryRepository;
 import org.springframework.ai.chat.memory.MessageWindowChatMemory;
-import org.springframework.ai.chat.model.ChatModel;
 import org.springframework.ai.chat.model.ChatResponse;
 import org.springframework.ai.chat.prompt.Prompt;
 import org.springframework.ai.chat.prompt.PromptTemplate;
+import org.springframework.ai.document.Document;
 import org.springframework.ai.embedding.EmbeddingModel;
 import org.springframework.ai.openai.OpenAiChatModel;
+import org.springframework.ai.vectorstore.SearchRequest;
+import org.springframework.ai.vectorstore.VectorStore;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.http.HttpStatus;
@@ -22,7 +25,6 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestParam;
 
 
@@ -30,19 +32,21 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class DemoController {
 
     //private final OpenAiChatModel chatModel;
-	private final ChatClient chatClient;
+	private ChatClient chatClient;
 	private final ChatMemory chatMemory = 
 		MessageWindowChatMemory.builder().build();
 	@Autowired
 	@Qualifier("openAiEmbeddingModel")
 	private EmbeddingModel embeddingModel;
+	private VectorStore vectorStore;
 
 	/* this is for no memory */
-	public DemoController(OpenAiChatModel chatModel) {
+	public DemoController(OpenAiChatModel chatModel, VectorStore vectorStore) {
 
 		// #1 
 		//this.openAiChatModel = openAiChatModel;
 		this.chatClient = ChatClient.create(chatModel);
+		this.vectorStore = vectorStore;
 
 	} 
 
@@ -111,13 +115,33 @@ public class DemoController {
 	}
 	
 	@PostMapping("/api/products")
-	public String postMethodName(@RequestParam String query) {
-		
-		return query;
+	public ResponseEntity<List<Document>> getProducts(@RequestParam String query) {
+
+		List<Document> results = new ArrayList<>();
+		// results = vectorStore.similaritySearch(query);
+		results = vectorStore.similaritySearch(SearchRequest
+				.builder()
+				.query(query)
+				.topK(2)
+				.build());
+
+		return ResponseEntity.ok(results);
+
+		}
+
+		@GetMapping("/api/answer")
+		public ResponseEntity<String> getAnswerRag(@RequestParam String query) {
+
+		String response =  chatClient
+					.prompt(query)
+					.advisors(QuestionAnswerAdvisor.builder(vectorStore).build())
+					.call()
+					.content();
+		return ResponseEntity.ok(response);
+		}
 	}
 	
 	
 
 
-    
-}
+
