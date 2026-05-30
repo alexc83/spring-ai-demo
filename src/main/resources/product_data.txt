@@ -1,0 +1,992 @@
+Ecommerce Product Catalog Dataset
+Use case: sample product records for loading into a vector database, semantic search index, recommendation prototype, or RAG demo.
+Record format: one product per section with structured fields and natural-language product details.
+================================================================================
+
+PRODUCT_ID: PRD-1001
+NAME: AeroBlend Pro Smoothie Blender
+BRAND: KitchenPeak
+CATEGORY: Kitchen Appliances
+SUBCATEGORY: Blenders
+SKU: KP-BLD-AERO-PRO
+PRICE: USD 89.99
+IN_STOCK_QUANTITY: 128
+AVERAGE_RATING: 4.6 out of 5
+REVIEW_COUNT: 842
+DESCRIPTION: A compact high-speed blender designed for smoothies, protein shakes, sauces, and crushed ice. The AeroBlend Pro includes a 900-watt motor, two travel cups, and dishwasher-safe blades for quick cleanup.
+FEATURES: 900-watt motor; BPA-free travel cups; Pulse and blend modes; Dishwasher-safe blade assembly; Non-slip base
+SPECIFICATIONS: capacity: 24 oz; power: 900 W; material: Stainless steel blades, BPA-free plastic cups; warranty: 2 years
+COLOR_OPTIONS: Black, Silver
+SEARCH_TAGS: smoothie, protein shake, kitchen, portable cup, ice crushing
+CUSTOMER_USE_CASES: Best for families, beginners, and customers who want simple setup with dependable performance.
+AVAILABILITY_STATUS: Available
+--------------------------------------------------------------------------------
+
+PRODUCT_ID: PRD-1002
+NAME: CloudRest Memory Foam Pillow
+BRAND: DreamNest
+CATEGORY: Home & Bedding
+SUBCATEGORY: Pillows
+SKU: DN-PIL-CLOUD-MF
+PRICE: USD 44.95
+IN_STOCK_QUANTITY: 76
+AVERAGE_RATING: 4.4 out of 5
+REVIEW_COUNT: 391
+DESCRIPTION: A supportive memory foam pillow with a cooling gel layer and washable cover. Designed for side and back sleepers who want pressure relief and better neck alignment.
+FEATURES: Cooling gel layer; Removable washable cover; Medium-firm support; CertiPUR-US certified foam
+SPECIFICATIONS: size: Queen; dimensions: 28 x 16 x 5 in; fill: Memory foam; warranty: 1 year
+COLOR_OPTIONS: White
+SEARCH_TAGS: sleep, cooling, neck support, memory foam, bedroom
+CUSTOMER_USE_CASES: Best for busy professionals, apartment living, and customers who value compact design.
+AVAILABILITY_STATUS: Available
+--------------------------------------------------------------------------------
+
+PRODUCT_ID: PRD-1003
+NAME: TrailLite 32L Hiking Backpack
+BRAND: NorthRidge
+CATEGORY: Outdoor
+SUBCATEGORY: Backpacks
+SKU: NR-BAG-TRAIL32
+PRICE: USD 74.50
+IN_STOCK_QUANTITY: 54
+AVERAGE_RATING: 4.7 out of 5
+REVIEW_COUNT: 612
+DESCRIPTION: A lightweight hiking backpack with hydration bladder compatibility, breathable mesh padding, and multiple external gear loops. Built for day hikes, short camping trips, and travel.
+FEATURES: 32-liter capacity; Hydration pocket; Rain cover included; Adjustable sternum strap; Side water bottle pockets
+SPECIFICATIONS: capacity: 32 L; weight: 2.1 lb; material: Ripstop nylon; warranty: Lifetime limited
+COLOR_OPTIONS: Forest Green, Slate Gray, Sunset Orange
+SEARCH_TAGS: hiking, camping, travel, daypack, hydration
+CUSTOMER_USE_CASES: Best for everyday home use, gifting, and customers looking for reliable mid-range quality.
+AVAILABILITY_STATUS: Available
+--------------------------------------------------------------------------------
+
+PRODUCT_ID: PRD-1004
+NAME: UrbanStep Knit Running Shoes
+BRAND: StrideFlex
+CATEGORY: Footwear
+SUBCATEGORY: Running Shoes
+SKU: SF-SHOE-URBN-KNIT
+PRICE: USD 69.99
+IN_STOCK_QUANTITY: 210
+AVERAGE_RATING: 4.3 out of 5
+REVIEW_COUNT: 1088
+DESCRIPTION: Breathable knit running shoes with a cushioned midsole and flexible outsole. Designed for casual runners, gym workouts, and all-day walking comfort.
+FEATURES: Breathable knit upper; Foam cushioned midsole; Flexible rubber outsole; Removable insole
+SPECIFICATIONS: sizes: Men 7-13, Women 6-11; material: Knit textile and rubber; drop: 8 mm; warranty: 90 days
+COLOR_OPTIONS: Black/White, Navy, Gray
+SEARCH_TAGS: running, walking, gym, lightweight, sneakers
+CUSTOMER_USE_CASES: Best for frequent travelers, students, and customers who need practical products with strong value.
+AVAILABILITY_STATUS: Available
+--------------------------------------------------------------------------------
+
+PRODUCT_ID: PRD-1005
+NAME: FocusFlow Noise-Canceling Headphones
+BRAND: SoundHarbor
+CATEGORY: Electronics
+SUBCATEGORY: Headphones
+SKU: SH-HP-FOCUSFLOW
+PRICE: USD 129.99
+IN_STOCK_QUANTITY: 93
+AVERAGE_RATING: 4.5 out of 5
+REVIEW_COUNT: 1522
+DESCRIPTION: Wireless over-ear headphones with active noise cancellation, transparency mode, and 35-hour battery life. Ideal for commuting, studying, remote work, and travel.
+FEATURES: Active noise cancellation; Transparency mode; 35-hour battery; USB-C charging; Foldable design
+SPECIFICATIONS: battery_life: 35 hours; connectivity: Bluetooth 5.3; charging: USB-C; warranty: 1 year
+COLOR_OPTIONS: Matte Black, Sandstone
+SEARCH_TAGS: wireless, noise canceling, music, work from home, travel
+CUSTOMER_USE_CASES: Best for home organization, wellness routines, and customers who prefer durable everyday essentials.
+AVAILABILITY_STATUS: Available
+--------------------------------------------------------------------------------
+
+PRODUCT_ID: PRD-1006
+NAME: BrewMaster Thermal Coffee Maker
+BRAND: KitchenPeak
+CATEGORY: Kitchen Appliances
+SUBCATEGORY: Coffee Makers
+SKU: KI-COF-1006
+PRICE: USD 119.00
+IN_STOCK_QUANTITY: 141
+AVERAGE_RATING: 4.1 out of 5
+REVIEW_COUNT: 1052
+DESCRIPTION: 12-cup programmable coffee maker with stainless thermal carafe, bloom cycle, and auto-clean mode.
+FEATURES: 12-cup thermal carafe; Programmable timer; Bloom brewing mode; Reusable filter; Auto-clean cycle
+SPECIFICATIONS: warranty: 2 years; shipping_weight: 14.3 lb; return_window: 30 days
+COLOR_OPTIONS: Silver
+SEARCH_TAGS: coffee, thermal carafe, morning, programmable
+CUSTOMER_USE_CASES: Best for home organization, wellness routines, and customers who prefer durable everyday essentials.
+AVAILABILITY_STATUS: Available
+--------------------------------------------------------------------------------
+
+PRODUCT_ID: PRD-1007
+NAME: PureMist Ultrasonic Humidifier
+BRAND: HomeAir
+CATEGORY: Home & Living
+SUBCATEGORY: Humidifiers
+SKU: HO-HUM-1007
+PRICE: USD 39.99
+IN_STOCK_QUANTITY: 71
+AVERAGE_RATING: 4.7 out of 5
+REVIEW_COUNT: 1128
+DESCRIPTION: Quiet ultrasonic humidifier for bedrooms, offices, and nurseries with adjustable mist output and auto shutoff.
+FEATURES: Quiet operation; 2.5 L tank; Auto shutoff; Night light; Adjustable mist
+SPECIFICATIONS: warranty: 2 years; shipping_weight: 1.0 lb; return_window: 30 days
+COLOR_OPTIONS: Navy
+SEARCH_TAGS: humidifier, bedroom, dry air, quiet
+CUSTOMER_USE_CASES: Best for families, beginners, and customers who want simple setup with dependable performance.
+AVAILABILITY_STATUS: Available
+--------------------------------------------------------------------------------
+
+PRODUCT_ID: PRD-1008
+NAME: FlexCore Adjustable Dumbbell Set
+BRAND: IronPeak
+CATEGORY: Fitness
+SUBCATEGORY: Strength Training
+SKU: IR-STR-1008
+PRICE: USD 249.99
+IN_STOCK_QUANTITY: 143
+AVERAGE_RATING: 4.1 out of 5
+REVIEW_COUNT: 192
+DESCRIPTION: Space-saving adjustable dumbbells that replace multiple pairs with quick dial weight changes.
+FEATURES: 5-52.5 lb range; Quick adjustment dial; Anti-slip handles; Compact storage tray
+SPECIFICATIONS: warranty: 1 year; shipping_weight: 11.2 lb; return_window: 30 days
+COLOR_OPTIONS: Natural
+SEARCH_TAGS: fitness, strength, home gym, dumbbells
+CUSTOMER_USE_CASES: Best for busy professionals, apartment living, and customers who value compact design.
+AVAILABILITY_STATUS: Available
+--------------------------------------------------------------------------------
+
+PRODUCT_ID: PRD-1009
+NAME: LumaDesk LED Task Lamp
+BRAND: BrightHaus
+CATEGORY: Office
+SUBCATEGORY: Desk Lamps
+SKU: BR-DES-1009
+PRICE: USD 32.50
+IN_STOCK_QUANTITY: 193
+AVERAGE_RATING: 4.2 out of 5
+REVIEW_COUNT: 855
+DESCRIPTION: Modern LED desk lamp with adjustable brightness, color temperature control, and USB charging port.
+FEATURES: 5 brightness levels; 3 color temperatures; USB charging port; Flexible neck; Touch controls
+SPECIFICATIONS: warranty: Lifetime limited; shipping_weight: 1.8 lb; return_window: 30 days
+COLOR_OPTIONS: Silver
+SEARCH_TAGS: desk, office, study, led lamp
+CUSTOMER_USE_CASES: Best for home organization, wellness routines, and customers who prefer durable everyday essentials.
+AVAILABILITY_STATUS: Available
+--------------------------------------------------------------------------------
+
+PRODUCT_ID: PRD-1010
+NAME: SnapCharge 3-in-1 Wireless Dock
+BRAND: VoltEdge
+CATEGORY: Electronics
+SUBCATEGORY: Chargers
+SKU: VO-CHA-1010
+PRICE: USD 49.99
+IN_STOCK_QUANTITY: 57
+AVERAGE_RATING: 4.6 out of 5
+REVIEW_COUNT: 552
+DESCRIPTION: Wireless charging dock for phone, earbuds, and smartwatch with a compact nightstand-friendly design.
+FEATURES: 3-device charging; Qi compatible; LED indicator; Non-slip base; USB-C input
+SPECIFICATIONS: warranty: 1 year; shipping_weight: 5.1 lb; return_window: 30 days
+COLOR_OPTIONS: Green
+SEARCH_TAGS: wireless charging, phone, smartwatch, nightstand
+CUSTOMER_USE_CASES: Best for frequent travelers, students, and customers who need practical products with strong value.
+AVAILABILITY_STATUS: Available
+--------------------------------------------------------------------------------
+
+PRODUCT_ID: PRD-1011
+NAME: FreshLock Glass Food Storage Set
+BRAND: HomeChef
+CATEGORY: Kitchen
+SUBCATEGORY: Food Storage
+SKU: HO-FOO-1011
+PRICE: USD 34.99
+IN_STOCK_QUANTITY: 43
+AVERAGE_RATING: 4.6 out of 5
+REVIEW_COUNT: 1208
+DESCRIPTION: Glass meal prep containers with leak-resistant locking lids for leftovers, lunches, and freezer storage.
+FEATURES: 10-piece set; Leak-resistant lids; Microwave safe glass; Freezer safe; Dishwasher safe
+SPECIFICATIONS: warranty: 2 years; shipping_weight: 6.1 lb; return_window: 30 days
+COLOR_OPTIONS: Black, Matte Black
+SEARCH_TAGS: meal prep, storage, glass containers, leftovers
+CUSTOMER_USE_CASES: Best for home organization, wellness routines, and customers who prefer durable everyday essentials.
+AVAILABILITY_STATUS: Available
+--------------------------------------------------------------------------------
+
+PRODUCT_ID: PRD-1012
+NAME: TerraGrip Yoga Mat
+BRAND: BalanceWay
+CATEGORY: Fitness
+SUBCATEGORY: Yoga
+SKU: BA-YOG-1012
+PRICE: USD 27.99
+IN_STOCK_QUANTITY: 36
+AVERAGE_RATING: 4.1 out of 5
+REVIEW_COUNT: 1143
+DESCRIPTION: Non-slip yoga mat with extra cushioning and alignment marks for home practice, stretching, and Pilates.
+FEATURES: 6 mm cushioning; Alignment guide; Textured grip; Carry strap included
+SPECIFICATIONS: warranty: 2 years; shipping_weight: 2.5 lb; return_window: 30 days
+COLOR_OPTIONS: Silver, Navy, Gray
+SEARCH_TAGS: yoga, pilates, stretching, exercise mat
+CUSTOMER_USE_CASES: Best for busy professionals, apartment living, and customers who value compact design.
+AVAILABILITY_STATUS: Available
+--------------------------------------------------------------------------------
+
+PRODUCT_ID: PRD-1013
+NAME: CommuterShield Laptop Backpack
+BRAND: MetroPack
+CATEGORY: Bags
+SUBCATEGORY: Laptop Backpacks
+SKU: ME-LAP-1013
+PRICE: USD 58.75
+IN_STOCK_QUANTITY: 182
+AVERAGE_RATING: 4.4 out of 5
+REVIEW_COUNT: 2026
+DESCRIPTION: Professional laptop backpack with padded device compartment, anti-theft rear pocket, and luggage strap.
+FEATURES: Fits 15.6-inch laptops; Anti-theft pocket; Water-resistant shell; USB pass-through; Luggage strap
+SPECIFICATIONS: warranty: Lifetime limited; shipping_weight: 4.7 lb; return_window: 30 days
+COLOR_OPTIONS: Silver, Matte Black
+SEARCH_TAGS: laptop bag, commute, work, travel
+CUSTOMER_USE_CASES: Best for home organization, wellness routines, and customers who prefer durable everyday essentials.
+AVAILABILITY_STATUS: Available
+--------------------------------------------------------------------------------
+
+PRODUCT_ID: PRD-1014
+NAME: GlowCare Vitamin C Serum
+BRAND: DermaKind
+CATEGORY: Beauty
+SUBCATEGORY: Skincare
+SKU: DE-SKI-1014
+PRICE: USD 22.99
+IN_STOCK_QUANTITY: 166
+AVERAGE_RATING: 4.3 out of 5
+REVIEW_COUNT: 707
+DESCRIPTION: Brightening facial serum formulated with vitamin C, hyaluronic acid, and antioxidant botanicals.
+FEATURES: Vitamin C complex; Hyaluronic acid; Lightweight texture; Fragrance-free; Vegan formula
+SPECIFICATIONS: warranty: 1 year; shipping_weight: 10.5 lb; return_window: 30 days
+COLOR_OPTIONS: Blue
+SEARCH_TAGS: skincare, serum, vitamin c, face care
+CUSTOMER_USE_CASES: Best for frequent travelers, students, and customers who need practical products with strong value.
+AVAILABILITY_STATUS: Available
+--------------------------------------------------------------------------------
+
+PRODUCT_ID: PRD-1015
+NAME: CozyLoop Weighted Blanket
+BRAND: DreamNest
+CATEGORY: Home & Bedding
+SUBCATEGORY: Blankets
+SKU: DR-BLA-1015
+PRICE: USD 64.99
+IN_STOCK_QUANTITY: 72
+AVERAGE_RATING: 4.1 out of 5
+REVIEW_COUNT: 812
+DESCRIPTION: Soft weighted blanket designed to provide calming pressure for relaxation, reading, and sleep routines.
+FEATURES: 15 lb weight; Microfiber cover; Even-fill pocket stitching; Machine washable cover
+SPECIFICATIONS: warranty: Lifetime limited; shipping_weight: 2.0 lb; return_window: 30 days
+COLOR_OPTIONS: Silver, Natural
+SEARCH_TAGS: weighted blanket, sleep, relaxation, cozy
+CUSTOMER_USE_CASES: Best for everyday home use, gifting, and customers looking for reliable mid-range quality.
+AVAILABILITY_STATUS: Available
+--------------------------------------------------------------------------------
+
+PRODUCT_ID: PRD-1016
+NAME: PixelFrame Digital Photo Display
+BRAND: BrightHaus
+CATEGORY: Electronics
+SUBCATEGORY: Digital Frames
+SKU: BR-DIG-1016
+PRICE: USD 89.95
+IN_STOCK_QUANTITY: 32
+AVERAGE_RATING: 4.4 out of 5
+REVIEW_COUNT: 1038
+DESCRIPTION: Wi-Fi digital photo frame with app uploads, slideshow settings, and auto-rotate display.
+FEATURES: 10.1-inch display; Wi-Fi uploads; Auto-rotate; Family sharing app; 16 GB storage
+SPECIFICATIONS: warranty: 2 years; shipping_weight: 3.1 lb; return_window: 30 days
+COLOR_OPTIONS: Gray, Navy
+SEARCH_TAGS: photo frame, wifi, family, display
+CUSTOMER_USE_CASES: Best for home organization, wellness routines, and customers who prefer durable everyday essentials.
+AVAILABILITY_STATUS: Available
+--------------------------------------------------------------------------------
+
+PRODUCT_ID: PRD-1017
+NAME: ChefStone Nonstick Fry Pan
+BRAND: HomeChef
+CATEGORY: Kitchen
+SUBCATEGORY: Cookware
+SKU: HO-COO-1017
+PRICE: USD 29.99
+IN_STOCK_QUANTITY: 192
+AVERAGE_RATING: 4.5 out of 5
+REVIEW_COUNT: 1183
+DESCRIPTION: Durable nonstick frying pan with ceramic coating and induction-compatible base.
+FEATURES: Ceramic nonstick coating; Induction compatible; Stay-cool handle; PFOA-free; Oven safe to 400°F
+SPECIFICATIONS: warranty: 2 years; shipping_weight: 11.6 lb; return_window: 30 days
+COLOR_OPTIONS: Silver, White
+SEARCH_TAGS: cookware, frying pan, nonstick, kitchen
+CUSTOMER_USE_CASES: Best for home organization, wellness routines, and customers who prefer durable everyday essentials.
+AVAILABILITY_STATUS: Available
+--------------------------------------------------------------------------------
+
+PRODUCT_ID: PRD-1018
+NAME: HydraTrack Stainless Water Bottle
+BRAND: NorthRidge
+CATEGORY: Outdoor
+SUBCATEGORY: Drinkware
+SKU: NO-DRI-1018
+PRICE: USD 24.95
+IN_STOCK_QUANTITY: 88
+AVERAGE_RATING: 4.6 out of 5
+REVIEW_COUNT: 1002
+DESCRIPTION: Insulated stainless steel bottle that keeps drinks cold for 24 hours and hot for 12 hours.
+FEATURES: 24-hour cold retention; 12-hour hot retention; Leakproof cap; BPA-free; Powder-coated finish
+SPECIFICATIONS: warranty: 90 days; shipping_weight: 15.6 lb; return_window: 30 days
+COLOR_OPTIONS: Silver
+SEARCH_TAGS: water bottle, insulated, gym, hiking
+CUSTOMER_USE_CASES: Best for families, beginners, and customers who want simple setup with dependable performance.
+AVAILABILITY_STATUS: Available
+--------------------------------------------------------------------------------
+
+PRODUCT_ID: PRD-1019
+NAME: QuietKeys Mechanical Keyboard
+BRAND: KeyForge
+CATEGORY: Electronics
+SUBCATEGORY: Computer Accessories
+SKU: KE-COM-1019
+PRICE: USD 84.99
+IN_STOCK_QUANTITY: 141
+AVERAGE_RATING: 4.8 out of 5
+REVIEW_COUNT: 1069
+DESCRIPTION: Compact mechanical keyboard with quiet tactile switches, RGB lighting, and USB-C connectivity.
+FEATURES: Quiet tactile switches; RGB backlight; Hot-swappable keys; USB-C wired; Compact layout
+SPECIFICATIONS: warranty: Lifetime limited; shipping_weight: 8.1 lb; return_window: 30 days
+COLOR_OPTIONS: Black, Matte Black, Blue
+SEARCH_TAGS: keyboard, mechanical, office, gaming
+CUSTOMER_USE_CASES: Best for busy professionals, apartment living, and customers who value compact design.
+AVAILABILITY_STATUS: Available
+--------------------------------------------------------------------------------
+
+PRODUCT_ID: PRD-1020
+NAME: ClearView 1080p Webcam
+BRAND: VisionPro
+CATEGORY: Electronics
+SUBCATEGORY: Webcams
+SKU: VI-WEB-1020
+PRICE: USD 59.99
+IN_STOCK_QUANTITY: 162
+AVERAGE_RATING: 4.3 out of 5
+REVIEW_COUNT: 724
+DESCRIPTION: Full HD webcam with built-in microphone, privacy cover, and auto light correction for video calls.
+FEATURES: 1080p video; Built-in microphone; Privacy cover; Auto light correction; Tripod mount
+SPECIFICATIONS: warranty: Lifetime limited; shipping_weight: 5.1 lb; return_window: 30 days
+COLOR_OPTIONS: Silver, Matte Black, Black
+SEARCH_TAGS: webcam, video calls, remote work, streaming
+CUSTOMER_USE_CASES: Best for busy professionals, apartment living, and customers who value compact design.
+AVAILABILITY_STATUS: Available
+--------------------------------------------------------------------------------
+
+PRODUCT_ID: PRD-1021
+NAME: PetNest Orthopedic Dog Bed
+BRAND: Paw & Porch
+CATEGORY: Pets
+SUBCATEGORY: Dog Beds
+SKU: PA-DOG-1021
+PRICE: USD 52.99
+IN_STOCK_QUANTITY: 27
+AVERAGE_RATING: 4.4 out of 5
+REVIEW_COUNT: 1915
+DESCRIPTION: Orthopedic foam dog bed with washable cover and bolstered sides for medium-sized dogs.
+FEATURES: Orthopedic foam; Bolstered edges; Washable cover; Non-slip bottom
+SPECIFICATIONS: warranty: 1 year; shipping_weight: 4.3 lb; return_window: 30 days
+COLOR_OPTIONS: Gray, Blue
+SEARCH_TAGS: dog bed, pet comfort, orthopedic, washable
+CUSTOMER_USE_CASES: Best for families, beginners, and customers who want simple setup with dependable performance.
+AVAILABILITY_STATUS: Available
+--------------------------------------------------------------------------------
+
+PRODUCT_ID: PRD-1022
+NAME: WhiskerPure Cat Water Fountain
+BRAND: Paw & Porch
+CATEGORY: Pets
+SUBCATEGORY: Cat Supplies
+SKU: PA-CAT-1022
+PRICE: USD 36.99
+IN_STOCK_QUANTITY: 176
+AVERAGE_RATING: 4.5 out of 5
+REVIEW_COUNT: 1965
+DESCRIPTION: Quiet cat water fountain with replaceable filter and flowing water design to encourage hydration.
+FEATURES: 2 L capacity; Replaceable carbon filter; Quiet pump; Dishwasher-safe bowl
+SPECIFICATIONS: warranty: Lifetime limited; shipping_weight: 12.4 lb; return_window: 30 days
+COLOR_OPTIONS: Green, Navy, Silver
+SEARCH_TAGS: cat fountain, pet hydration, cat supplies
+CUSTOMER_USE_CASES: Best for everyday home use, gifting, and customers looking for reliable mid-range quality.
+AVAILABILITY_STATUS: Available
+--------------------------------------------------------------------------------
+
+PRODUCT_ID: PRD-1023
+NAME: EcoWash Laundry Detergent Sheets
+BRAND: GreenNest
+CATEGORY: Household
+SUBCATEGORY: Laundry
+SKU: GR-LAU-1023
+PRICE: USD 18.99
+IN_STOCK_QUANTITY: 192
+AVERAGE_RATING: 4.3 out of 5
+REVIEW_COUNT: 683
+DESCRIPTION: Plastic-free laundry detergent sheets that dissolve quickly and work in hot or cold water.
+FEATURES: 60 sheets; Plastic-free packaging; Works in cold water; Fresh linen scent; HE compatible
+SPECIFICATIONS: warranty: 2 years; shipping_weight: 18.1 lb; return_window: 30 days
+COLOR_OPTIONS: Silver, Black, Matte Black
+SEARCH_TAGS: laundry, eco friendly, detergent, home
+CUSTOMER_USE_CASES: Best for everyday home use, gifting, and customers looking for reliable mid-range quality.
+AVAILABILITY_STATUS: Available
+--------------------------------------------------------------------------------
+
+PRODUCT_ID: PRD-1024
+NAME: AeroFresh HEPA Air Purifier
+BRAND: HomeAir
+CATEGORY: Home & Living
+SUBCATEGORY: Air Purifiers
+SKU: HO-AIR-1024
+PRICE: USD 149.99
+IN_STOCK_QUANTITY: 21
+AVERAGE_RATING: 4.6 out of 5
+REVIEW_COUNT: 679
+DESCRIPTION: Room air purifier with HEPA filtration, sleep mode, and air quality indicator for bedrooms and offices.
+FEATURES: True HEPA filter; Sleep mode; Air quality sensor; 3 fan speeds; Filter reminder
+SPECIFICATIONS: warranty: 2 years; shipping_weight: 15.8 lb; return_window: 30 days
+COLOR_OPTIONS: Blue, Matte Black, Navy
+SEARCH_TAGS: air purifier, HEPA, allergies, bedroom
+CUSTOMER_USE_CASES: Best for home organization, wellness routines, and customers who prefer durable everyday essentials.
+AVAILABILITY_STATUS: Available
+--------------------------------------------------------------------------------
+
+PRODUCT_ID: PRD-1025
+NAME: SlateLine Minimalist Wallet
+BRAND: UrbanHide
+CATEGORY: Accessories
+SUBCATEGORY: Wallets
+SKU: UR-WAL-1025
+PRICE: USD 28.00
+IN_STOCK_QUANTITY: 188
+AVERAGE_RATING: 4.4 out of 5
+REVIEW_COUNT: 1190
+DESCRIPTION: Slim RFID-blocking wallet with card slots, cash sleeve, and durable vegan leather exterior.
+FEATURES: RFID blocking; Slim profile; 6 card slots; Cash sleeve; Vegan leather
+SPECIFICATIONS: warranty: 2 years; shipping_weight: 10.3 lb; return_window: 30 days
+COLOR_OPTIONS: Navy, Green, White
+SEARCH_TAGS: wallet, RFID, accessory, minimalist
+CUSTOMER_USE_CASES: Best for busy professionals, apartment living, and customers who value compact design.
+AVAILABILITY_STATUS: Available
+--------------------------------------------------------------------------------
+
+PRODUCT_ID: PRD-1026
+NAME: SummitCast Iron Dutch Oven
+BRAND: HomeChef
+CATEGORY: Kitchen
+SUBCATEGORY: Cookware
+SKU: HO-COO-1026
+PRICE: USD 79.99
+IN_STOCK_QUANTITY: 139
+AVERAGE_RATING: 4.5 out of 5
+REVIEW_COUNT: 1024
+DESCRIPTION: Enameled cast iron Dutch oven for soups, braising, baking bread, and slow-cooked meals.
+FEATURES: 6-quart capacity; Enameled cast iron; Oven safe to 500°F; Tight-fitting lid
+SPECIFICATIONS: warranty: 90 days; shipping_weight: 16.6 lb; return_window: 30 days
+COLOR_OPTIONS: Navy, Silver, Natural
+SEARCH_TAGS: dutch oven, cast iron, cookware, soup
+CUSTOMER_USE_CASES: Best for everyday home use, gifting, and customers looking for reliable mid-range quality.
+AVAILABILITY_STATUS: Available
+--------------------------------------------------------------------------------
+
+PRODUCT_ID: PRD-1027
+NAME: KidsBuild Magnetic Tile Set
+BRAND: BrightSprout
+CATEGORY: Toys
+SUBCATEGORY: Building Toys
+SKU: BR-BUI-1027
+PRICE: USD 42.99
+IN_STOCK_QUANTITY: 232
+AVERAGE_RATING: 4.3 out of 5
+REVIEW_COUNT: 1844
+DESCRIPTION: Colorful magnetic building tiles that encourage creativity, shape recognition, and STEM play.
+FEATURES: 100-piece set; Magnetic tiles; STEM learning; Storage bag included
+SPECIFICATIONS: warranty: Lifetime limited; shipping_weight: 4.8 lb; return_window: 30 days
+COLOR_OPTIONS: Navy
+SEARCH_TAGS: toys, STEM, kids, magnetic tiles
+CUSTOMER_USE_CASES: Best for frequent travelers, students, and customers who need practical products with strong value.
+AVAILABILITY_STATUS: Available
+--------------------------------------------------------------------------------
+
+PRODUCT_ID: PRD-1028
+NAME: MiniChef Silicone Utensil Set
+BRAND: HomeChef
+CATEGORY: Kitchen
+SUBCATEGORY: Utensils
+SKU: HO-UTE-1028
+PRICE: USD 21.99
+IN_STOCK_QUANTITY: 80
+AVERAGE_RATING: 4.5 out of 5
+REVIEW_COUNT: 463
+DESCRIPTION: Heat-resistant silicone kitchen utensil set with wooden handles and countertop holder.
+FEATURES: 10-piece set; Heat-resistant silicone; Wood handles; Holder included; Non-scratch design
+SPECIFICATIONS: warranty: 2 years; shipping_weight: 2.6 lb; return_window: 30 days
+COLOR_OPTIONS: Black
+SEARCH_TAGS: utensils, cooking, silicone, kitchen
+CUSTOMER_USE_CASES: Best for home organization, wellness routines, and customers who prefer durable everyday essentials.
+AVAILABILITY_STATUS: Available
+--------------------------------------------------------------------------------
+
+PRODUCT_ID: PRD-1029
+NAME: PulseFit Smart Scale
+BRAND: IronPeak
+CATEGORY: Fitness
+SUBCATEGORY: Smart Scales
+SKU: IR-SMA-1029
+PRICE: USD 39.99
+IN_STOCK_QUANTITY: 240
+AVERAGE_RATING: 4.5 out of 5
+REVIEW_COUNT: 489
+DESCRIPTION: Bluetooth smart scale that tracks weight, BMI, body fat estimate, and progress trends in the mobile app.
+FEATURES: Bluetooth app sync; Weight tracking; BMI estimate; Body fat estimate; Multi-user profiles
+SPECIFICATIONS: warranty: 2 years; shipping_weight: 11.1 lb; return_window: 30 days
+COLOR_OPTIONS: Black
+SEARCH_TAGS: smart scale, fitness, weight tracking, health
+CUSTOMER_USE_CASES: Best for families, beginners, and customers who want simple setup with dependable performance.
+AVAILABILITY_STATUS: Available
+--------------------------------------------------------------------------------
+
+PRODUCT_ID: PRD-1030
+NAME: GardenEase Raised Planter Box
+BRAND: GreenNest
+CATEGORY: Garden
+SUBCATEGORY: Planters
+SKU: GR-PLA-1030
+PRICE: USD 56.00
+IN_STOCK_QUANTITY: 136
+AVERAGE_RATING: 4.7 out of 5
+REVIEW_COUNT: 734
+DESCRIPTION: Elevated planter box for herbs, vegetables, and flowers with drainage holes and weather-resistant wood.
+FEATURES: Elevated design; Drainage holes; Weather-resistant wood; Easy assembly
+SPECIFICATIONS: warranty: Lifetime limited; shipping_weight: 4.9 lb; return_window: 30 days
+COLOR_OPTIONS: Blue, Natural, Gray
+SEARCH_TAGS: garden, planter, herbs, vegetables
+CUSTOMER_USE_CASES: Best for families, beginners, and customers who want simple setup with dependable performance.
+AVAILABILITY_STATUS: Available
+--------------------------------------------------------------------------------
+
+PRODUCT_ID: PRD-1031
+NAME: TravelEase Packing Cube Set
+BRAND: MetroPack
+CATEGORY: Travel
+SUBCATEGORY: Packing Organizers
+SKU: ME-PAC-1031
+PRICE: USD 25.99
+IN_STOCK_QUANTITY: 188
+AVERAGE_RATING: 4.1 out of 5
+REVIEW_COUNT: 1589
+DESCRIPTION: Six-piece packing cube set for organizing clothing, shoes, toiletries, and accessories in luggage.
+FEATURES: 6-piece set; Mesh top panels; Compression zipper; Laundry pouch included
+SPECIFICATIONS: warranty: 2 years; shipping_weight: 1.1 lb; return_window: 30 days
+COLOR_OPTIONS: Silver
+SEARCH_TAGS: travel, packing cubes, luggage, organization
+CUSTOMER_USE_CASES: Best for frequent travelers, students, and customers who need practical products with strong value.
+AVAILABILITY_STATUS: Available
+--------------------------------------------------------------------------------
+
+PRODUCT_ID: PRD-1032
+NAME: SonicClean Electric Toothbrush
+BRAND: DermaKind
+CATEGORY: Personal Care
+SUBCATEGORY: Oral Care
+SKU: DE-ORA-1032
+PRICE: USD 46.99
+IN_STOCK_QUANTITY: 73
+AVERAGE_RATING: 4.2 out of 5
+REVIEW_COUNT: 886
+DESCRIPTION: Rechargeable sonic toothbrush with multiple brushing modes, timer, and two replacement brush heads.
+FEATURES: Sonic cleaning; 4 brushing modes; 2-minute timer; USB charging; 2 brush heads
+SPECIFICATIONS: warranty: 1 year; shipping_weight: 6.9 lb; return_window: 30 days
+COLOR_OPTIONS: Black, Blue, Silver
+SEARCH_TAGS: toothbrush, oral care, rechargeable, personal care
+CUSTOMER_USE_CASES: Best for families, beginners, and customers who want simple setup with dependable performance.
+AVAILABILITY_STATUS: Available
+--------------------------------------------------------------------------------
+
+PRODUCT_ID: PRD-1033
+NAME: NiteGuard Motion Sensor Light
+BRAND: BrightHaus
+CATEGORY: Home Improvement
+SUBCATEGORY: Lighting
+SKU: BR-LIG-1033
+PRICE: USD 19.99
+IN_STOCK_QUANTITY: 199
+AVERAGE_RATING: 4.2 out of 5
+REVIEW_COUNT: 1538
+DESCRIPTION: Battery-powered motion sensor light for closets, hallways, stairways, and cabinets.
+FEATURES: Motion activated; Battery powered; Adhesive mount; Auto shutoff; Warm white light
+SPECIFICATIONS: warranty: 2 years; shipping_weight: 1.4 lb; return_window: 30 days
+COLOR_OPTIONS: Black
+SEARCH_TAGS: motion light, closet, hallway, home safety
+CUSTOMER_USE_CASES: Best for home organization, wellness routines, and customers who prefer durable everyday essentials.
+AVAILABILITY_STATUS: Available
+--------------------------------------------------------------------------------
+
+PRODUCT_ID: PRD-1034
+NAME: StudioTone USB Microphone
+BRAND: SoundHarbor
+CATEGORY: Electronics
+SUBCATEGORY: Microphones
+SKU: SO-MIC-1034
+PRICE: USD 69.99
+IN_STOCK_QUANTITY: 79
+AVERAGE_RATING: 4.7 out of 5
+REVIEW_COUNT: 2027
+DESCRIPTION: Plug-and-play USB microphone for podcasts, video calls, streaming, and voice recording.
+FEATURES: USB plug-and-play; Cardioid pickup; Mute button; Desktop stand included; Headphone monitoring
+SPECIFICATIONS: warranty: 1 year; shipping_weight: 0.5 lb; return_window: 30 days
+COLOR_OPTIONS: Green
+SEARCH_TAGS: microphone, podcast, streaming, recording
+CUSTOMER_USE_CASES: Best for home organization, wellness routines, and customers who prefer durable everyday essentials.
+AVAILABILITY_STATUS: Available
+--------------------------------------------------------------------------------
+
+PRODUCT_ID: PRD-1035
+NAME: EverCool Lunch Bag
+BRAND: MetroPack
+CATEGORY: Kitchen
+SUBCATEGORY: Lunch Bags
+SKU: ME-LUN-1035
+PRICE: USD 23.50
+IN_STOCK_QUANTITY: 43
+AVERAGE_RATING: 4.2 out of 5
+REVIEW_COUNT: 1032
+DESCRIPTION: Insulated lunch bag with leak-resistant liner, front pocket, and adjustable shoulder strap.
+FEATURES: Insulated interior; Leak-resistant liner; Front accessory pocket; Adjustable strap
+SPECIFICATIONS: warranty: 1 year; shipping_weight: 13.1 lb; return_window: 30 days
+COLOR_OPTIONS: Black, White, Natural
+SEARCH_TAGS: lunch bag, meal prep, work lunch, insulated
+CUSTOMER_USE_CASES: Best for families, beginners, and customers who want simple setup with dependable performance.
+AVAILABILITY_STATUS: Available
+--------------------------------------------------------------------------------
+
+PRODUCT_ID: PRD-1036
+NAME: SoftStep Bath Mat
+BRAND: Home & Haven
+CATEGORY: Bath
+SUBCATEGORY: Bath Mats
+SKU: HO-BAT-1036
+PRICE: USD 18.75
+IN_STOCK_QUANTITY: 168
+AVERAGE_RATING: 4.5 out of 5
+REVIEW_COUNT: 625
+DESCRIPTION: Plush absorbent bath mat with non-slip backing for bathrooms, guest rooms, and dorms.
+FEATURES: Microfiber surface; Non-slip backing; Machine washable; Quick-dry design
+SPECIFICATIONS: warranty: 2 years; shipping_weight: 14.0 lb; return_window: 30 days
+COLOR_OPTIONS: Natural
+SEARCH_TAGS: bath mat, bathroom, soft, absorbent
+CUSTOMER_USE_CASES: Best for families, beginners, and customers who want simple setup with dependable performance.
+AVAILABILITY_STATUS: Available
+--------------------------------------------------------------------------------
+
+PRODUCT_ID: PRD-1037
+NAME: ProBake Silicone Baking Mats
+BRAND: HomeChef
+CATEGORY: Kitchen
+SUBCATEGORY: Bakeware
+SKU: HO-BAK-1037
+PRICE: USD 16.99
+IN_STOCK_QUANTITY: 159
+AVERAGE_RATING: 4.3 out of 5
+REVIEW_COUNT: 1066
+DESCRIPTION: Reusable nonstick silicone baking mats for cookies, pastries, roasted vegetables, and easy cleanup.
+FEATURES: 2-pack; Reusable silicone; Nonstick surface; Oven safe to 480°F; Fits half-sheet pans
+SPECIFICATIONS: warranty: 90 days; shipping_weight: 2.0 lb; return_window: 30 days
+COLOR_OPTIONS: Matte Black
+SEARCH_TAGS: baking, silicone mat, cookies, reusable
+CUSTOMER_USE_CASES: Best for busy professionals, apartment living, and customers who value compact design.
+AVAILABILITY_STATUS: Available
+--------------------------------------------------------------------------------
+
+PRODUCT_ID: PRD-1038
+NAME: ClearSip Cold Brew Pitcher
+BRAND: KitchenPeak
+CATEGORY: Kitchen
+SUBCATEGORY: Coffee & Tea
+SKU: KI-COF-1038
+PRICE: USD 31.99
+IN_STOCK_QUANTITY: 227
+AVERAGE_RATING: 4.1 out of 5
+REVIEW_COUNT: 1755
+DESCRIPTION: Glass cold brew coffee pitcher with stainless filter and airtight lid for smooth homemade cold brew.
+FEATURES: 1.5 L glass pitcher; Stainless steel filter; Airtight lid; Dishwasher safe
+SPECIFICATIONS: warranty: 2 years; shipping_weight: 15.9 lb; return_window: 30 days
+COLOR_OPTIONS: Navy, Natural
+SEARCH_TAGS: cold brew, coffee, pitcher, glass
+CUSTOMER_USE_CASES: Best for everyday home use, gifting, and customers looking for reliable mid-range quality.
+AVAILABILITY_STATUS: Available
+--------------------------------------------------------------------------------
+
+PRODUCT_ID: PRD-1039
+NAME: TechRest Ergonomic Mouse Pad
+BRAND: KeyForge
+CATEGORY: Office
+SUBCATEGORY: Desk Accessories
+SKU: KE-DES-1039
+PRICE: USD 14.99
+IN_STOCK_QUANTITY: 216
+AVERAGE_RATING: 4.3 out of 5
+REVIEW_COUNT: 707
+DESCRIPTION: Large ergonomic mouse pad with wrist rest, smooth tracking surface, and non-slip rubber base.
+FEATURES: Memory foam wrist rest; Non-slip base; Smooth cloth surface; Large size
+SPECIFICATIONS: warranty: Lifetime limited; shipping_weight: 8.1 lb; return_window: 30 days
+COLOR_OPTIONS: Black, Blue, Matte Black
+SEARCH_TAGS: mouse pad, office, ergonomic, desk
+CUSTOMER_USE_CASES: Best for everyday home use, gifting, and customers looking for reliable mid-range quality.
+AVAILABILITY_STATUS: Available
+--------------------------------------------------------------------------------
+
+PRODUCT_ID: PRD-1040
+NAME: RainGuard Compact Umbrella
+BRAND: UrbanHide
+CATEGORY: Accessories
+SUBCATEGORY: Umbrellas
+SKU: UR-UMB-1040
+PRICE: USD 22.00
+IN_STOCK_QUANTITY: 229
+AVERAGE_RATING: 4.4 out of 5
+REVIEW_COUNT: 1349
+DESCRIPTION: Wind-resistant compact umbrella with automatic open-close button and water-repellent canopy.
+FEATURES: Auto open-close; Wind-resistant ribs; Compact fold; Water-repellent canopy
+SPECIFICATIONS: warranty: 2 years; shipping_weight: 16.0 lb; return_window: 30 days
+COLOR_OPTIONS: Matte Black
+SEARCH_TAGS: umbrella, rain, travel, commute
+CUSTOMER_USE_CASES: Best for frequent travelers, students, and customers who need practical products with strong value.
+AVAILABILITY_STATUS: Available
+--------------------------------------------------------------------------------
+
+PRODUCT_ID: PRD-1041
+NAME: BabySnuggle Muslin Swaddle Set
+BRAND: BrightSprout
+CATEGORY: Baby
+SUBCATEGORY: Swaddles
+SKU: BR-SWA-1041
+PRICE: USD 26.99
+IN_STOCK_QUANTITY: 177
+AVERAGE_RATING: 4.1 out of 5
+REVIEW_COUNT: 1652
+DESCRIPTION: Soft breathable muslin swaddle blankets for newborns, stroller covers, and nursing covers.
+FEATURES: 3-pack; Cotton muslin; Breathable fabric; Machine washable
+SPECIFICATIONS: warranty: 2 years; shipping_weight: 10.8 lb; return_window: 30 days
+COLOR_OPTIONS: Green, Natural, Silver
+SEARCH_TAGS: baby, swaddle, newborn, blanket
+CUSTOMER_USE_CASES: Best for busy professionals, apartment living, and customers who value compact design.
+AVAILABILITY_STATUS: Available
+--------------------------------------------------------------------------------
+
+PRODUCT_ID: PRD-1042
+NAME: FitGrip Resistance Band Kit
+BRAND: IronPeak
+CATEGORY: Fitness
+SUBCATEGORY: Resistance Bands
+SKU: IR-RES-1042
+PRICE: USD 24.99
+IN_STOCK_QUANTITY: 41
+AVERAGE_RATING: 4.1 out of 5
+REVIEW_COUNT: 442
+DESCRIPTION: Complete resistance band kit with handles, ankle straps, door anchor, and carrying bag.
+FEATURES: 5 resistance levels; Foam handles; Door anchor; Ankle straps; Carry bag
+SPECIFICATIONS: warranty: Lifetime limited; shipping_weight: 6.6 lb; return_window: 30 days
+COLOR_OPTIONS: Black
+SEARCH_TAGS: resistance bands, home workout, strength, fitness
+CUSTOMER_USE_CASES: Best for families, beginners, and customers who want simple setup with dependable performance.
+AVAILABILITY_STATUS: Available
+--------------------------------------------------------------------------------
+
+PRODUCT_ID: PRD-1043
+NAME: QuickSteam Garment Steamer
+BRAND: Home & Haven
+CATEGORY: Home Appliances
+SUBCATEGORY: Garment Care
+SKU: HO-GAR-1043
+PRICE: USD 37.99
+IN_STOCK_QUANTITY: 53
+AVERAGE_RATING: 4.2 out of 5
+REVIEW_COUNT: 1244
+DESCRIPTION: Portable garment steamer for removing wrinkles from shirts, dresses, curtains, and travel clothing.
+FEATURES: Fast heat-up; Travel-friendly size; Detachable water tank; Auto shutoff
+SPECIFICATIONS: warranty: 1 year; shipping_weight: 10.2 lb; return_window: 30 days
+COLOR_OPTIONS: Green, Matte Black, Silver
+SEARCH_TAGS: steamer, clothes, travel, wrinkle remover
+CUSTOMER_USE_CASES: Best for home organization, wellness routines, and customers who prefer durable everyday essentials.
+AVAILABILITY_STATUS: Available
+--------------------------------------------------------------------------------
+
+PRODUCT_ID: PRD-1044
+NAME: BakeCraft Measuring Set
+BRAND: HomeChef
+CATEGORY: Kitchen
+SUBCATEGORY: Measuring Tools
+SKU: HO-MEA-1044
+PRICE: USD 15.99
+IN_STOCK_QUANTITY: 159
+AVERAGE_RATING: 4.7 out of 5
+REVIEW_COUNT: 1802
+DESCRIPTION: Stainless steel measuring cups and spoons with engraved markings and nesting storage ring.
+FEATURES: 12-piece set; Stainless steel; Engraved measurements; Nesting design
+SPECIFICATIONS: warranty: Lifetime limited; shipping_weight: 10.7 lb; return_window: 30 days
+COLOR_OPTIONS: Matte Black, Silver, Green
+SEARCH_TAGS: baking, measuring cups, kitchen, stainless steel
+CUSTOMER_USE_CASES: Best for everyday home use, gifting, and customers looking for reliable mid-range quality.
+AVAILABILITY_STATUS: Available
+--------------------------------------------------------------------------------
+
+PRODUCT_ID: PRD-1045
+NAME: LuxeLather Towel Set
+BRAND: Home & Haven
+CATEGORY: Bath
+SUBCATEGORY: Towels
+SKU: HO-TOW-1045
+PRICE: USD 49.99
+IN_STOCK_QUANTITY: 53
+AVERAGE_RATING: 4.1 out of 5
+REVIEW_COUNT: 342
+DESCRIPTION: Soft cotton towel set with two bath towels, two hand towels, and two washcloths.
+FEATURES: 6-piece set; Cotton fabric; Highly absorbent; Machine washable
+SPECIFICATIONS: warranty: 2 years; shipping_weight: 17.9 lb; return_window: 30 days
+COLOR_OPTIONS: Green
+SEARCH_TAGS: towels, bathroom, cotton, home
+CUSTOMER_USE_CASES: Best for busy professionals, apartment living, and customers who value compact design.
+AVAILABILITY_STATUS: Available
+--------------------------------------------------------------------------------
+
+PRODUCT_ID: PRD-1046
+NAME: CoreTemp Meat Thermometer
+BRAND: KitchenPeak
+CATEGORY: Kitchen
+SUBCATEGORY: Thermometers
+SKU: KI-THE-1046
+PRICE: USD 18.99
+IN_STOCK_QUANTITY: 40
+AVERAGE_RATING: 4.4 out of 5
+REVIEW_COUNT: 1284
+DESCRIPTION: Instant-read digital meat thermometer with backlit display and foldable probe.
+FEATURES: Instant reading; Backlit screen; Foldable probe; Magnetic back; Auto shutoff
+SPECIFICATIONS: warranty: 90 days; shipping_weight: 9.8 lb; return_window: 30 days
+COLOR_OPTIONS: Green, White, Silver
+SEARCH_TAGS: thermometer, grilling, cooking, meat
+CUSTOMER_USE_CASES: Best for busy professionals, apartment living, and customers who value compact design.
+AVAILABILITY_STATUS: Available
+--------------------------------------------------------------------------------
+
+PRODUCT_ID: PRD-1047
+NAME: PowerNest Surge Protector Tower
+BRAND: VoltEdge
+CATEGORY: Electronics
+SUBCATEGORY: Power Accessories
+SKU: VO-POW-1047
+PRICE: USD 35.99
+IN_STOCK_QUANTITY: 51
+AVERAGE_RATING: 4.6 out of 5
+REVIEW_COUNT: 472
+DESCRIPTION: Vertical surge protector tower with AC outlets, USB ports, and overload protection for desks and dorms.
+FEATURES: 8 AC outlets; 4 USB ports; Surge protection; Overload switch; 6-foot cord
+SPECIFICATIONS: warranty: 1 year; shipping_weight: 18.0 lb; return_window: 30 days
+COLOR_OPTIONS: Blue, Matte Black, Black
+SEARCH_TAGS: surge protector, desk, charging, power strip
+CUSTOMER_USE_CASES: Best for busy professionals, apartment living, and customers who value compact design.
+AVAILABILITY_STATUS: Available
+--------------------------------------------------------------------------------
+
+PRODUCT_ID: PRD-1048
+NAME: MorningBloom Ceramic Mug Set
+BRAND: Home & Haven
+CATEGORY: Kitchen
+SUBCATEGORY: Drinkware
+SKU: HO-DRI-1048
+PRICE: USD 29.99
+IN_STOCK_QUANTITY: 209
+AVERAGE_RATING: 4.5 out of 5
+REVIEW_COUNT: 531
+DESCRIPTION: Set of four ceramic mugs with comfortable handles and a modern matte finish.
+FEATURES: 4-piece set; Ceramic material; Matte finish; Microwave safe; Dishwasher safe
+SPECIFICATIONS: warranty: Lifetime limited; shipping_weight: 12.0 lb; return_window: 30 days
+COLOR_OPTIONS: White, Navy
+SEARCH_TAGS: mugs, coffee, tea, ceramic
+CUSTOMER_USE_CASES: Best for frequent travelers, students, and customers who need practical products with strong value.
+AVAILABILITY_STATUS: Available
+--------------------------------------------------------------------------------
+
+PRODUCT_ID: PRD-1049
+NAME: ZenGarden Desktop Fountain
+BRAND: BrightHaus
+CATEGORY: Home Decor
+SUBCATEGORY: Decorative Accents
+SKU: BR-DEC-1049
+PRICE: USD 41.99
+IN_STOCK_QUANTITY: 26
+AVERAGE_RATING: 4.3 out of 5
+REVIEW_COUNT: 1139
+DESCRIPTION: Small indoor tabletop fountain with quiet pump, natural stones, and calming water flow.
+FEATURES: Quiet pump; Natural stones; LED accent light; Indoor use; Compact design
+SPECIFICATIONS: warranty: 2 years; shipping_weight: 9.1 lb; return_window: 30 days
+COLOR_OPTIONS: Silver
+SEARCH_TAGS: decor, fountain, relaxation, office
+CUSTOMER_USE_CASES: Best for busy professionals, apartment living, and customers who value compact design.
+AVAILABILITY_STATUS: Available
+--------------------------------------------------------------------------------
+
+PRODUCT_ID: PRD-1050
+NAME: ArcticBreeze Desk Fan
+BRAND: HomeAir
+CATEGORY: Office
+SUBCATEGORY: Fans
+SKU: HO-FAN-1050
+PRICE: USD 27.50
+IN_STOCK_QUANTITY: 240
+AVERAGE_RATING: 4.2 out of 5
+REVIEW_COUNT: 1844
+DESCRIPTION: USB-powered desk fan with adjustable tilt, quiet motor, and three speed settings.
+FEATURES: USB powered; 3 speeds; Adjustable tilt; Quiet motor; Compact base
+SPECIFICATIONS: warranty: 1 year; shipping_weight: 4.9 lb; return_window: 30 days
+COLOR_OPTIONS: Green, Blue, White
+SEARCH_TAGS: desk fan, office, cooling, USB
+CUSTOMER_USE_CASES: Best for frequent travelers, students, and customers who need practical products with strong value.
+AVAILABILITY_STATUS: Available
+--------------------------------------------------------------------------------
+
+PRODUCT_ID: PRD-1051
+NAME: SafeTrek First Aid Kit
+BRAND: NorthRidge
+CATEGORY: Outdoor
+SUBCATEGORY: Safety
+SKU: NO-SAF-1051
+PRICE: USD 21.99
+IN_STOCK_QUANTITY: 208
+AVERAGE_RATING: 4.6 out of 5
+REVIEW_COUNT: 1738
+DESCRIPTION: Compact first aid kit with common bandages, gauze, antiseptic wipes, and emergency supplies.
+FEATURES: 120 pieces; Compact case; Organized compartments; Travel ready
+SPECIFICATIONS: warranty: 2 years; shipping_weight: 9.6 lb; return_window: 30 days
+COLOR_OPTIONS: Green
+SEARCH_TAGS: first aid, outdoor, safety, emergency
+CUSTOMER_USE_CASES: Best for busy professionals, apartment living, and customers who value compact design.
+AVAILABILITY_STATUS: Available
+--------------------------------------------------------------------------------
+
+PRODUCT_ID: PRD-1052
+NAME: CleanSweep Robot Vacuum
+BRAND: HomeAir
+CATEGORY: Home Appliances
+SUBCATEGORY: Robot Vacuums
+SKU: HO-ROB-1052
+PRICE: USD 199.99
+IN_STOCK_QUANTITY: 232
+AVERAGE_RATING: 4.3 out of 5
+REVIEW_COUNT: 1374
+DESCRIPTION: Smart robot vacuum with scheduled cleaning, app control, and low-profile design for hard floors and low-pile carpets.
+FEATURES: App scheduling; Low-profile body; Anti-drop sensors; Auto recharge; Multi-surface cleaning
+SPECIFICATIONS: warranty: 1 year; shipping_weight: 12.1 lb; return_window: 30 days
+COLOR_OPTIONS: Blue
+SEARCH_TAGS: robot vacuum, cleaning, smart home, floors
+CUSTOMER_USE_CASES: Best for everyday home use, gifting, and customers looking for reliable mid-range quality.
+AVAILABILITY_STATUS: Available
+--------------------------------------------------------------------------------
